@@ -1,2 +1,19 @@
 @charset "UTF-8";
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header > img{
+    position: absolute;
+    width: 100vw;
+    height: 20vh;    
+}
+
+nav{
+    background-color: #111;
+    width: 15vw;
+    height: 100vh;
+    padding-top: 200px;
+}
