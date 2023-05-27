@@ -19,16 +19,77 @@ nav{
     
 }
 
+li{
+    padding: 10px;
+    
+}
+
+a{
+    color: white;
+    font-family: Arial;
+    font-size: 20pt;
+    background-color: #f1f1f1;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px ;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
 .conteudo{
     position: absolute;
     width: 85vw;
     height:80vh;
     margin-left: 230px;
     padding-top: 200px;
-    background-color: red;
+    background-color: gray;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
+}
+
+.horarioServico{
+    padding: 10px;
+}
+
+table, th, td{
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table tr:nth-child(even){
+    background-color: aqua;
+}
+
+table tr:hover{
+    background-color: lightgray;
+}
+
+p.contato{
+    margin-top: 10px;
+}
+
+form{
+    margin-top: 10px;
+}
+
+iframe{
+    margin-top: 10px;
+}
+
+input#limpar{
+    width: 100px;
+    height: 30px;
+}
+
+input#enviar{
+    width: 100px;
+    height: 30px;
 }
 
 footer{
