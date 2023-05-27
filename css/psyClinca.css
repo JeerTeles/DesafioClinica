@@ -106,7 +106,9 @@ html, body {
 }
 
 body {
-    background-color: #f1f1f1;
+    background-image: url(/img/pexels-pixabay-414144.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
 }
