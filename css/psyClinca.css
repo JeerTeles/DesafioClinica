@@ -168,7 +168,7 @@ li:hover{
     padding: 20px;
 }
 
-h1#conteudo{
+h1{
     color: rgba(53, 154, 53, 0.867);;
 }
 
@@ -176,12 +176,33 @@ p{
     font-size: 20px;
 }
 
+iframe{
+    height: 175px;
+}
+
+table, th, td{
+    width: 900px;
+    margin: auto; 
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table tr:nth-child(even){
+    background-color: aqua;
+}
+
+table tr:hover{
+    background-color: lightgray;
+}
+
+
 .footer {
     /*background-color: rgb(99, 56, 240);*/
     background-color: rgb(5, 108, 108);
     color: #f1f1f1;
-    height: 200px;
-    min-height: 150px;
+    height: px;
+    min-height: 119px;
     text-align: center;
     padding: 5px;
 }
